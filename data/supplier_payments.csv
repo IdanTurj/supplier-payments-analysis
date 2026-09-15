@@ -1,0 +1,65 @@
+payment_id,supplier_id,supplier_name,payment_date,amount,status
+1001,101,Alpha Office Supplies,2026-01-04,1220,paid
+1002,102,Beta Logistics,2026-01-06,2230,pending
+1003,103,Cedar IT Services,2026-01-08,3270,paid
+1004,104,Delta Facilities,2026-01-10,1860,paid
+1005,105,Echo Consulting,2026-01-12,2800,paid
+1006,106,Falcon Industrial,2026-01-14,3400,paid
+1007,107,Greenline Telecom,2026-01-16,2110,paid
+1008,108,Horizon Equipment,2026-01-18,4330,pending
+1009,101,Alpha Office Supplies,2026-02-05,1590,cancelled
+1010,102,Beta Logistics,2026-02-07,2670,pending
+1011,103,Cedar IT Services,2026-02-09,3690,pending
+1012,104,Delta Facilities,2026-02-11,2540,paid
+1013,105,Echo Consulting,2026-02-13,3340,cancelled
+1014,106,Falcon Industrial,2026-02-15,3970,paid
+1015,107,Greenline Telecom,2026-02-17,2400,paid
+1016,108,Horizon Equipment,2026-02-19,4500,paid
+1017,101,Alpha Office Supplies,2026-03-06,1690,cancelled
+1018,102,Beta Logistics,2026-03-08,3080,paid
+1019,103,Cedar IT Services,2026-03-10,3790,pending
+1020,104,Delta Facilities,2026-03-12,2450,pending
+1021,105,Echo Consulting,2026-03-14,3290,pending
+1022,106,Falcon Industrial,2026-03-16,4100,cancelled
+1023,107,Greenline Telecom,2026-03-18,2560,pending
+1024,108,Horizon Equipment,2026-03-20,5220,paid
+1025,101,Alpha Office Supplies,2026-04-04,1920,paid
+1026,102,Beta Logistics,2026-04-06,3460,paid
+1027,103,Cedar IT Services,2026-04-08,3840,cancelled
+1028,104,Delta Facilities,2026-04-10,2830,paid
+1029,105,Echo Consulting,2026-04-12,3590,paid
+1030,106,Falcon Industrial,2026-04-14,4010,paid
+1031,107,Greenline Telecom,2026-04-16,3260,paid
+1032,108,Horizon Equipment,2026-04-18,4880,paid
+1033,101,Alpha Office Supplies,2026-05-05,1930,paid
+1034,102,Beta Logistics,2026-05-07,3620,paid
+1035,103,Cedar IT Services,2026-05-09,4220,paid
+1036,104,Delta Facilities,2026-05-11,2530,paid
+1037,105,Echo Consulting,2026-05-13,3350,paid
+1038,106,Falcon Industrial,2026-05-15,4170,paid
+1039,107,Greenline Telecom,2026-05-17,3230,paid
+1040,108,Horizon Equipment,2026-05-19,5260,pending
+1041,101,Alpha Office Supplies,2026-06-06,2210,pending
+1042,102,Beta Logistics,2026-06-08,3350,paid
+1043,103,Cedar IT Services,2026-06-10,3960,paid
+1044,104,Delta Facilities,2026-06-12,2850,paid
+1045,105,Echo Consulting,2026-06-14,3610,pending
+1046,106,Falcon Industrial,2026-06-16,4260,paid
+1047,107,Greenline Telecom,2026-06-18,3210,paid
+1048,108,Horizon Equipment,2026-06-20,5110,paid
+1049,101,Alpha Office Supplies,2026-07-04,2370,paid
+1050,102,Beta Logistics,2026-07-06,3610,paid
+1051,103,Cedar IT Services,2026-07-08,4440,pending
+1052,104,Delta Facilities,2026-07-10,3040,pending
+1053,105,Echo Consulting,2026-07-12,4300,pending
+1054,106,Falcon Industrial,2026-07-14,4800,paid
+1055,107,Greenline Telecom,2026-07-16,3280,pending
+1056,108,Horizon Equipment,2026-07-18,5560,pending
+1057,101,Alpha Office Supplies,2026-08-05,2240,paid
+1058,102,Beta Logistics,2026-08-07,3810,cancelled
+1059,103,Cedar IT Services,2026-08-09,4810,paid
+1060,104,Delta Facilities,2026-08-11,3400,paid
+1061,105,Echo Consulting,2026-08-13,4170,paid
+1062,106,Falcon Industrial,2026-08-15,4710,paid
+1063,107,Greenline Telecom,2026-08-17,3640,paid
+1064,108,Horizon Equipment,2026-08-19,6190,paid
