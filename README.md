@@ -2,9 +2,15 @@
 
 A PostgreSQL and Power BI portfolio project focused on supplier payment activity, outstanding obligations, payment status, and supplier-level financial KPIs.
 
+## Dashboard preview
+
+![Supplier Payments Analytics Dashboard](assets/dashboard-overview.png)
+
+*Interactive Power BI dashboard built from the included supplier-payment dataset, with KPI cards, status analysis, supplier comparisons, monthly trends, outstanding balances, and interactive filters.*
+
 ## Project overview
 
-This project analyzes a reproducible supplier-payment dataset to answer practical finance and operations questions. The workflow starts with transactional payment data in PostgreSQL, transforms it into business KPIs with SQL, and prepares the results for an interactive Power BI dashboard.
+This project analyzes a reproducible supplier-payment dataset to answer practical finance and operations questions. The workflow starts with transactional payment data in PostgreSQL, transforms it into business KPIs with SQL, and presents the results in an interactive Power BI dashboard.
 
 The included dataset is synthetic and contains no private company or supplier information.
 
@@ -48,7 +54,9 @@ These figures describe only the included synthetic sample.
 - Supplier-level KPI calculation
 - Monthly payment trend analysis
 - Outstanding-payment analysis
-- SQL outputs designed for Power BI reporting
+- Interactive dashboard development in **Power BI**
+- DAX measures and report-level filtering
+- Business-focused data visualization and KPI communication
 
 ## Analytical workflow
 
@@ -60,6 +68,7 @@ These figures describe only the included synthetic sample.
 6. Use CTEs to compare paid and pending balances.
 7. Use window functions to rank payments within each supplier.
 8. Prepare supplier and monthly summaries for Power BI visualization.
+9. Build an interactive Power BI dashboard with KPI cards, slicers, and supplier-level analysis.
 
 ## Project structure
 
@@ -76,7 +85,8 @@ These figures describe only the included synthetic sample.
 ├── power-bi/
 │   └── README.md
 └── assets/
-    └── README.md
+    ├── README.md
+    └── dashboard-overview.png
 ```
 
 ## PostgreSQL setup
@@ -107,20 +117,21 @@ Optional reporting views for Power BI are available in:
 sql/power_bi_views.sql
 ```
 
-## Planned Power BI dashboard
+## Power BI dashboard
 
-The reporting layer is designed around the same dataset and SQL outputs. The dashboard will include:
+The completed dashboard includes:
 
-- Total Payment Value
-- Total Paid
-- Total Pending
-- Paid Transaction Rate
-- Payments by Status
-- Paid and Pending Amount by Supplier
-- Monthly Payment Trend
-- Top Suppliers by Payment Value
-- Outstanding Payments by Supplier
-- Supplier, Status, and Date slicers
+- **Total Payment Value**
+- **Total Paid**
+- **Total Pending**
+- **Paid Transaction Rate**
+- **Payments by Status**
+- **Paid vs Pending by Supplier**
+- **Monthly Payment Trend**
+- **Outstanding Payments by Supplier**
+- Interactive **Supplier**, **Status**, and **Payment Date** filters
+
+The dashboard uses a dark analytics theme with consistent status colors to make paid, pending, and cancelled activity easy to compare.
 
 ## Key analytical concepts
 
@@ -138,4 +149,4 @@ CTEs create readable intermediate supplier summaries before comparing paid and p
 
 ## Portfolio note
 
-This project demonstrates a business-oriented Data Analyst workflow: starting with transactional data in PostgreSQL, defining useful financial KPIs, answering supplier-payment questions with SQL, and preparing the analysis for presentation in Power BI.
+This project demonstrates a business-oriented Data Analyst workflow: starting with transactional data in PostgreSQL, defining useful financial KPIs, answering supplier-payment questions with SQL, and presenting the results in an interactive Power BI dashboard.
